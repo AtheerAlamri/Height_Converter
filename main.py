@@ -37,11 +37,11 @@ meter_entry.grid(column=1, row=1, pady=30)
 meter_entry.delete(0, 'end')
 
 # Convert button
-convert_btn = Button(window, text='Convert', bg='#ce837d', fg='white', width=14, command=convert)
+convert_btn = Button(window, text='Convert', bg='#58554a', fg='white', width=14, command=convert)
 convert_btn.grid(column=0, row=3, padx=15)
 
 # Clear button
-clear_btn = Button(window, text='Clear', bg='#58554a', fg='white', width=14, command=clear)
+clear_btn = Button(window, text='Clear', bg='#a52a2a', fg='white', width=14, command=clear)
 clear_btn.grid(column=1, row=3, padx=15)
 
 
