@@ -2,8 +2,8 @@ from tkinter import Tk, Button, Label, DoubleVar, Entry
 
 window = Tk()
 window.title("Feet to Meter Converting App")
-window.configure(background='light green')
-window.geometry('320x220')
+window.configure(background='#cdd4d3')
+window.geometry('350x220')
 window.resizable(width=False, height=False)
 
 
@@ -19,7 +19,7 @@ def clear():
 
 
 # Feet Label
-feet_lb1 = Label(window, text='Feet', bg='purple', fg='white', width=14)
+feet_lb1 = Label(window, text='Feet', bg='#f19c59', fg='white', width=14)
 feet_lb1.grid(column=0, row=0, padx=15, pady=15)
 # Feet entry widgets
 feet_value = DoubleVar()
@@ -28,7 +28,7 @@ feet_entry.grid(column=1, row=0)
 feet_entry.delete(0, 'end')
 
 # Meter Label
-meter_lb1 = Label(window, text='Meter', bg='brown', fg='white', width=14)
+meter_lb1 = Label(window, text='Meter', bg='#809088', fg='white', width=14)
 meter_lb1.grid(column=0, row=1)
 # Meter entry widgets
 meter_value = DoubleVar()
@@ -37,11 +37,11 @@ meter_entry.grid(column=1, row=1, pady=30)
 meter_entry.delete(0, 'end')
 
 # Convert button
-convert_btn = Button(window, text='Convert', bg='blue', fg='white', width=14, command=convert)
+convert_btn = Button(window, text='Convert', bg='#ce837d', fg='white', width=14, command=convert)
 convert_btn.grid(column=0, row=3, padx=15)
 
 # Clear button
-clear_btn = Button(window, text='Clear', bg='black', fg='white', width=14, command=clear)
+clear_btn = Button(window, text='Clear', bg='#58554a', fg='white', width=14, command=clear)
 clear_btn.grid(column=1, row=3, padx=15)
 
 
