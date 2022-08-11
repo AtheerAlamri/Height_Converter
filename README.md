@@ -6,4 +6,4 @@ A simple height converter project convert height in feet to meters.
 [<code><img height="25" src="https://github.com/github/explore/blob/main/topics/pycharm/pycharm.png"></code>](https://www.jetbrains.com/pycharm/)
 
 # GUI
-<img width="265" alt="Height coverter" src="https://user-images.githubusercontent.com/100073823/184211996-47599f36-d79c-4ff7-af29-47f3727f8e2d.png">
+<img width="266" alt="Height Converter" src="https://user-images.githubusercontent.com/100073823/184253228-4b9c4eb7-f923-4b22-84ea-7ecedc9c3e7e.png">
